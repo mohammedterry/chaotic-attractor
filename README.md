@@ -29,15 +29,15 @@ then the resulting trajectory (orange) will gradually diverge until it is wildly
 This is called sensitive dependence on initial conditions (or more popularly termed "the butterfly effect")
 ![](https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/butterfly%20effect%202.jpg)
 
-# Tests
+# Sample Results
 There are tests provided in the code which demo the applications of this on various types of input data. 
 A midi file (Bach's prelude in C) is hard coded into the file
 is chaotically remixed by the program to create a musical variant:
-[]!()
+![]()
 
 and a sample text is provided to show this chaotic reordering on natural language
 (compare the story to the original)
-[]!()
+![](https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/story.jpg)
 
 # How?
 The original input data is stored along the x,y,z coordinates of the orinal trajectory.  
@@ -45,4 +45,4 @@ The second trajectory will pass by some of the first's trajectorie's coordinates
 however, not in the exact same order (since its a chaotic variant).
 The order it passes them is the order of the data sequence for the chaotic variant
 Inspired by the online courses in Complexity Science at Santa Fe Institute
-[]!()
+(https://www.complexityexplorer.org/courses/79-nonlinear-dynamics-mathematical-and-computational-approaches-fall-2017)
