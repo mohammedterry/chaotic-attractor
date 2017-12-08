@@ -4,7 +4,7 @@ This code uses a chaotic attractor (the Lorenz equations) to create variations o
 # Lorenz Equations
 Therefore the heart of this project is in computing the (chaotic) trajectory of the Lorenz Equations:
 
-```
+```python
 def lorenz(x,y,z, sigma=10.0, rho=28.0, beta=8.0/3, dt = 1e-2):
     # the lorenz system exhibits chaotic behaviour     
     # if sigma,rho,beta are set at these values
