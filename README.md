@@ -1,8 +1,8 @@
- Chaotic Attractor
+# Chaotic Attractor
 This code uses a chaotic attractor (the Lorenz equations) to create variations of any given input sequence (e.g. music, natural language, etc).  The variant has the general theme of the original data, however it remixes it slightly to add a funky new twist.  
 
 # Lorenz Equations
-Therefore the heart of this project is in computing the (chaotic) trajectory of the Lorenz Equations:
+Therefore the heart of this project lies in computing the (chaotic) trajectory of the Lorenz Equations:
 
 ```python
 def lorenz(x,y,z, sigma=10.0, rho=28.0, beta=8.0/3, dt = 1e-2):
