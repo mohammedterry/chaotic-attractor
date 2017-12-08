@@ -31,9 +31,10 @@ This is called sensitive dependence on initial conditions (or more popularly ter
 
 # Sample Results
 There are tests provided in the code which demo the applications of this on various types of input data. 
-A midi file (Bach's prelude in C) is hard coded into the file
+A midi file (Bach's prelude in C) is hard coded into the file (https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/bach.mp4)
 is chaotically remixed by the program to create a musical variant:
-![]()
+(https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/variant1.mp4)
+(https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/variant2.mp4)
 
 and a sample text is provided to show this chaotic reordering on natural language
 (compare the story to the original)
