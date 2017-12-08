@@ -26,7 +26,7 @@ A 3D trajectory of the attractor looks like this:
 If you restart from the same initial conditions (x,y,z) BUT change one value ever so slightly (by a value of, say, +/- 0.001),
 then the resulting trajectory will gradually diverge until it is wildly different from the original!!!
 []!()
-This is called sensitive dependence on initial conditions (or more termed "the butterfly effect")
+This is called sensitive dependence on initial conditions (or more popularly termed "the butterfly effect")
 
 # Tests
 
