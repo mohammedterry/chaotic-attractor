@@ -1,4 +1,4 @@
-# Chaotic Attractor
+ Chaotic Attractor
 This code uses a chaotic attractor (the Lorenz equations) to create variations of any given input sequence (e.g. music, natural language, etc).  The variant has the general theme of the original data, however it remixes it slightly to add a funky new twist.  
 
 # Lorenz Equations
@@ -22,14 +22,14 @@ def lorenz(x,y,z, sigma=10.0, rho=28.0, beta=8.0/3, dt = 1e-2):
 # Butterfly Effect
 This isnt the only chaotic attractor out there, but it is one of the more famous ones. 
 A 3D trajectory of the attractor looks like this:
-[]!(https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/lorenz.jpg)
+![](https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/lorenz.jpg)
 If you restart from the same initial conditions (x,y,z) BUT change one value ever so slightly (by a value of, say, +/- 0.001),
-then the resulting trajectory will gradually diverge until it is wildly different from the original!!!
-[]!(https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/butterfly%20effect.jpg)
+then the resulting trajectory (orange) will gradually diverge until it is wildly different from the original (blue)!!!
+![](https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/butterfly%20effect.jpg)
 This is called sensitive dependence on initial conditions (or more popularly termed "the butterfly effect")
-[]!(https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/butterfly%20effect%202.jpg)
-# Tests
+![](https://raw.githubusercontent.com/mohammedterry/chaotic-attractor/master/screenshots/butterfly%20effect%202.jpg)
 
+# Tests
 There are tests provided in the code which demo the applications of this on various types of input data. 
 A midi file (Bach's prelude in C) is hard coded into the file
 is chaotically remixed by the program to create a musical variant:
