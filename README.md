@@ -42,8 +42,8 @@ and a sample text is provided to show this chaotic reordering on natural languag
 
 # How?
 The original input data is stored along the x,y,z coordinates of the orinal trajectory.  
-The second trajectory will pass by some of the first's trajectorie's coordinates, 
+The second trajectory will pass by some of the first's trajectory's coordinates, 
 however, not in the exact same order (since its a chaotic variant).
-The order it passes them is the order of the data sequence for the chaotic variant
-Inspired by the online courses in Complexity Science at Santa Fe Institute
+The amazing thing is - the trajectory will always differ, since its a chaotic system
+Inspired by the fabulous online Complexity Explorer Courses offered by Santa Fe Institute
 (https://www.complexityexplorer.org/courses/79-nonlinear-dynamics-mathematical-and-computational-approaches-fall-2017)
